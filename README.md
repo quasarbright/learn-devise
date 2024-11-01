@@ -1,24 +1,27 @@
-# README
+# learn-devise
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A little blog website I made to learn devise, which is an authentication library for Ruby on Rails.
 
-Things you may want to cover:
+Made with Ruby on Rails.
 
-* Ruby version
+Users can create, view, edit, and delete articles.
+Only an article's creator can edit or delete it.
 
-* System dependencies
+## Dependencies
 
-* Configuration
+* ruby 3.3.5
+* sqlite3 3.43.2
+* rails 7.2.1.1
 
-* Database creation
+## Setup
 
-* Database initialization
+```shell
+bundle install
+bin/rails db:migrate
+```
 
-* How to run the test suite
+## Run Locally
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```shell
+bin/rails server
+```
